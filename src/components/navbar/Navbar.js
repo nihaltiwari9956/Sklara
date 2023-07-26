@@ -134,7 +134,7 @@ const Navbar = ({ userdata }) => {
                     <li><Link className="nav-link" to="/"><DashboardIcon style={{ color: '#550b7c' }} /> Learning Dashboard</Link></li>
                     <li><Link className="nav-link" to="/profile"><PersonIcon style={{ color: '#ffc100' }} /> My Profile</Link></li>
                     <li onClick={() => modeChanger(userdata.mode === 'training' ? 'coaching' : 'training')}><Link className="nav-link" to="">
-                      <SwitchAccountIcon style={{ color: '#0062e3' }} /> {userdata.mode === 'training' ? 'Switch to Training' : 'Switch to Coaching'}
+                      <SwitchAccountIcon style={{ color: '#0062e3' }} /> {userdata?.mode === 'training' ? 'Switch to Training' : 'Switch to Coaching'}
                     </Link></li>
                     <li><Link className="nav-link" to="/"><ContentCopyOutlinedIcon style={{ color: '#28a745' }} /> Booking Requests</Link></li>
                     {/* <li><hr class="dropdown-divider" /></li> */}
