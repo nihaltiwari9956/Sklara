@@ -1,0 +1,99 @@
+.step3 .AccordionSection{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #fff;
+}
+
+.step3 .Contain1{
+  width: 100%;
+}
+
+.step3 .Wrap{
+  color: #550B7C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  margin: 6px;
+  font-weight: 700!important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1)
+}
+.step3 .Wrap span svg{
+  color: #550B7C!important;
+}
+.step3 .Dropdown{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 300px;
+  
+}
+.step3 .break-box{
+  margin-left: 0;
+  display: flex;
+  height: 80px;
+  justify-content: end;
+  width: 98%;
+  align-items: center;
+  text-align: center;
+}
+.step3 .break-box > div{
+    width: 97%;
+    background: #8C8C8C;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.Dropdown .dot-Pointer {
+   width: 31px;
+height: 190px;
+padding: 0px;
+display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .Dropdown .dot-Pointer .dot-Point{
+   border: 4px solid #550B7C;
+   border-radius: 39px;
+   height: 75px;
+   display: flex;
+    align-items: center;
+ } 
+
+ .Dropdown .dot-Pointer .dot-Point img{
+  filter: invert(9%) sepia(44%) saturate(7449%) hue-rotate(276deg) brightness(96%) contrast(105%) !important;
+   width: 16px;
+ }
+
+ .Dropdown .hover-editor{
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
+   background: #E6D9EF;   
+  } 
+  
+
+  .Dropdown .hover-indicate {
+    box-shadow: inset 0px 0px 0px 9px rgba(230,217,239,1);
+  }
+  .Dropdown .hover-editor > div{
+    cursor: pointer;
+  }
+
+  .Dropdown .BreakcloseBtn{
+   position: relative;
+    top: -20px;
+    right: -583px;
+ } 
+

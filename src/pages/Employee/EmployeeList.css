@@ -1,0 +1,51 @@
+.form-dec{
+    text-align: end !important;
+}
+.form-color{
+    background: #f2edff;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    height: 2.5rem;
+    font-size: 1.2rem;
+    width: 18rem;
+}
+
+.app-container {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #f6a9ff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: rgb(219, 219, 219);
+  }
+  
+  td {
+    background-color: rgb(237, 237, 237);
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  

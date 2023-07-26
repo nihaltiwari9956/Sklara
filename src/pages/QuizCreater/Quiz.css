@@ -1,0 +1,74 @@
+.add_new{
+    position: absolute;
+    width: 202px;
+    height: 40px;
+    left: 1198px;
+    top: 201px;
+    
+    background: #550B7C;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    
+}
+.Addq_marks{
+    position: absolute;
+    width: 1079px;
+    height: 90px;
+    left: 321px;
+    top: 341px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.ellipsis-icon-font{
+    margin-left: 74px;
+margin-top:7px
+}
+.check{
+position: absolute;
+width: 20px;
+height: 20px;
+background: #FFFFFF;
+border: 1px solid #8C8C8C;
+box-sizing: border-box;
+border-radius: 2px;
+left: 20px;
+}
+.search-box{
+    position: absolute;
+    width: 209px;
+    height: 32px;
+    left: 50px;
+    
+    
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.search-box {
+    position: absolute;
+    width: 209px;
+    height: 32px;
+    
+
+
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.Addq_Date_marks{position: absolute;
+width: 996px;
+height: 44px;
+left: 337px;
+top: 483px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #1B1464;
+}

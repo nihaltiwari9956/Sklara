@@ -1,0 +1,22 @@
+.left_nav{
+    border-right: 1px solid var(--lightGray);
+    font-family: 'Inter';
+    padding: 10px!important;
+}
+
+.side-nav{
+    border-radius: 40px!important;
+}
+.left_nav .active{
+    background: #ecdef5!important;
+    color: #550B7C;  
+    font-weight: 600;
+
+}
+
+.left_nav .nav-box{
+    text-align: left;
+}
+.left_nav .nav-box > p{
+    margin-left: -10px;
+}

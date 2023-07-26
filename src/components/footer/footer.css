@@ -1,0 +1,20 @@
+.footerlogo{
+    width: 90px;
+}
+
+.footer-icon{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+box-shadow: 0 0 1px black;
+}
+
+
+
+/* media query */
+@media screen and (max-width: 994px) {
+    .footer-div{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+  }

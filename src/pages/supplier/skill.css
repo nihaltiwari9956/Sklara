@@ -1,0 +1,107 @@
+.skill-search {
+    border-radius: 30px !important;
+}
+
+.main-div {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.btn-search {
+    border: 1px solid blue !important;
+}
+
+.donut-div {
+    width: 200px;
+    height: 200px;
+}
+
+.donut-action-div {
+    opacity: 0;
+}
+
+.main-donut:hover .donut-action-div {
+    /* display: block; */
+    opacity: 1;
+    transition: 1s ease !important;
+
+}
+
+.blank-donut {
+    position: relative;
+    /* background-color: #F6F7F9; */
+}
+
+.blank-donut-item {
+    position: absolute;
+    top: 140px;
+    right: 97px;
+}
+
+.manageSkill h4,
+.manageSkill h6 {
+    font-weight: 800 !important;
+}
+
+.blank-div-items {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+}
+
+.polar-div-in {
+    position: relative;
+    height: 100%;
+}
+
+.block {
+    width: 300px
+}
+
+.skill-value {
+    position: absolute;
+    margin-left: 40%;
+    top: 70px;
+}
+
+
+.blank-donut-item2 {
+    position: absolute;
+    top: 130px;
+    right: 84px;
+}
+
+.circle {
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    border: 15px solid lightgray;
+}
+
+.circle2 {
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    border: 15px solid lightslategray;
+}
+
+.donut-action-div {
+    position: absolute;
+}
+
+.donut-action-item:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.full {
+    display: block !important;
+}
+
+.modal-scroll {
+    overflow-y: scroll !important;
+    width: 80vw;
+    margin-bottom: 5px !important;
+}

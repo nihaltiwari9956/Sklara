@@ -1,0 +1,78 @@
+.outer-profile{
+  background-color: #f1f6f9;
+}
+.change-color{
+  background: -webkit-linear-gradient(#1B1464, #550B7C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: linear-gradient(to right, #1B1464, #550B7C ); */
+}
+.common-card{
+  margin-bottom: 2rem;
+}
+.common-card .card{
+  box-shadow: 1px 2px 4px rgb(0 0 0 / 20%);
+}
+.profile-image{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+.profile-flag1{
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  position: absolute;
+  /* display: inline-flex; */
+  /* right: 3rem; */
+  top: 11rem;
+  z-index: 3;
+}
+.profile-flag2{
+  width: 3.4rem;
+  height: 3.4rem;
+  position: absolute;
+  /* display: inline-flex; */
+  right: 2rem;
+  top: 11rem;
+  z-index: 2;
+}
+.profile-flag1 img{
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.profile-flag2 img{
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.profile-settings{
+  background-color: #550b7c !important;
+  position: absolute;
+  right: -10px;
+  top: 0%;
+  color: white !important;
+  padding: 12px !important;
+}
+.profile-end-div{
+  height: 15rem;
+  position: relative;
+  background-color: #8441af;
+  margin-bottom: 5rem;
+}
+.inner-profile-end{
+  color: white;
+  position: absolute; /*Can also be `fixed`*/
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  margin: auto;
+  transform: translateY(-50%);
+  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+  max-width: 100%;
+  max-height: 100%;
+}
+.inner-profile-end button{
+  background: linear-gradient(to right, #d3d6d6 0%, #e8e9e9 100%);
+  color: #550b7c;
+}

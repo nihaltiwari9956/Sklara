@@ -1,0 +1,61 @@
+.TrainingStep1 input#createaccount:checked {
+    background-color: #550B7C;
+    box-shadow: inset 0px 0px 0px 3px #ffffff;
+    transition: 0.5s;
+}
+
+.TrainingStep1 input#createaccount{
+    position: relative;
+    margin-left: 4px;
+    width: 21px;
+    height: 21px;
+    float: left;
+    margin: 4px 10px 2px 1px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #550B7C;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.TrainingStep1 .cent{
+    display: flex;
+    height: 28px;
+    align-items: center;
+}
+
+.TrainingStep1 .mp-input-div {
+    width: 43vw !important;
+}
+.TrainingStep1 .mp-com-flag1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: relative;
+    display: inline-flex;
+    right: 0rem;
+    top: 0rem;
+    z-index: 3;
+}
+
+.TrainingStep1 .deleteOpt {
+    width: 144px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.TrainingStep2 .mp-input-div {
+    width: 31vw !important;
+}
+
+.TrainingStep2 .border_input {
+    margin: 30px 8px;
+    min-width: 276px;
+    text-align: left;
+    width: 460px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}

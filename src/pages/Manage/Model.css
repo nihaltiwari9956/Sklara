@@ -1,0 +1,137 @@
+.modalButton {
+    cursor: pointer;
+  }
+  
+  
+  /* Modal */
+  .Modal-box {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 500px;
+    Height : 620px;
+    position: absolute;
+  }
+  
+  .Modal-box .modalContainer {
+    max-width: 600px;
+    position: relative;
+    top: 98%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+    width: 500px;
+    Height : 620px;
+
+  }
+
+  
+  .Modal-box .modalRight {
+    width: 100%;
+  }
+  
+  .Modal-box .closeBtn {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+  }
+  
+  .Modal-box .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    padding: .7rem 0rem;
+  }
+  
+  .Modal-box .btnContainer {
+    display: flex;
+    padding: 1rem 1rem;
+  }
+  .Modal-box .btnContainer button {
+    width: 100%;
+    margin: .5rem;
+    padding: 16px 0;
+    /* border: none; */
+    border: 1px solid #411b57;
+    /* color: #ffffff; */
+  }
+  
+  .Modal-box .btnPrimary {
+    background-color: #411b57;
+    color: white;
+  }
+  
+  .Modal-box .btnOutline {
+    /* background-color: #a76a99; */
+    background-color: white;
+    color: #411b57;
+  }
+  
+  .Modal-box .bold {
+    font-weight: 600;
+  }
+  .Modal-box .mp-input-div{
+      width: 29vw !important;
+  }
+  .Modal-box .modalTime{
+    top: 44%;
+    left: 62%;
+    height: 177px;
+  }
+
+  .Modal-box .MuiFormControl-marginNormal {
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+
+  .Modal-box .MuiInput-root {
+    width: 27rem;
+  }
+
+  .Modal-box .Timer .MuiInput-root {
+    width: 12rem;
+  }
+
+  .Modal-box .modalTime .MuiFormControl-root{
+    margin-bottom: 0px;
+  }
+  .Modal-box .MuiPopover-paper{
+    top: 326px!important;
+  }
+
+   .MuiPickersDay-daySelected{
+    background-color: #550B7C!important;
+}
+ .MuiPickersDay-daySelected:hover {
+  background-color: #550B7C!important;
+}
+
+
+
+    .Modal-box .ant-picker {
+      border: 1px solid #CCCCCC;
+       border-radius: 10px;
+       padding: 11px !important;
+    }
+
+    .ant-picker-time-panel {
+      width: 164px;
+      min-width: auto;
+  }
+
+  .ant-picker-input > input{
+    width: 170px;
+  }
+
+  .ant-picker-ok, .ant-btn-sm{
+    background-color: #550B7C;
+    border-color: #550B7C;
+  }
+
+  .ant-btn-sm:hover{
+    background-color: #550B7C;
+    border-color: #550B7C;
+  }
+  

@@ -1,0 +1,39 @@
+.TainerStep3 .Avail-Calender .react-calendar__tile--active {
+    background: #550B7C;
+    border-radius: 115%;
+    flex: 0 0 9% !important;
+    margin-left: 26px !important;
+    position: relative;
+    right: 14px;
+    color: white;
+
+}
+
+
+.TainerStep3 .Avail-Calender .react-calendar__tile {
+    max-width: 100% !important;
+    /* margin: 6px 0 !important; */
+    padding: 18px 6.6667px !important;
+    text-align: center !important;
+    line-height: 9px !important;
+}
+
+
+.TainerStep3 .common-card .card {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+border-radius: 15px;}
+
+
+.TainerStep3 .rightBox > p{
+    color: rgb(132, 65, 175);
+    text-align: center;
+    padding: 2px 0;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.TainerStep3 .react-calendar__navigation__label__labelText, .react-calendar__navigation__label__labelText--from {
+  display: contents!important;
+}

@@ -1,0 +1,153 @@
+.Manage {
+    max-width: 1503px;
+    text-align: center;
+}
+
+.Manage .box {
+    position: absolute;
+    width: 286px;
+    height: 61px;
+    left: -26px;
+    top: 320px;
+
+    background: #F6EEFB;
+    border-radius: 40px;
+}
+
+.Manage .border_input {
+    margin: 30px 8px;
+    min-width: 276px;
+    text-align: left;
+    width: 116px;
+}
+
+.Manage .mp-input-div {
+    width: 28vw !important;
+}
+
+.Manage .border_input input,
+.border_input select {
+    width: 103%;
+    border: none;
+    background: white;
+    border-radius: 0;
+    line-height: normal;
+    outline: none;
+    border-bottom: 2px solid var(--grey);
+}
+
+.Manage .cat-box {
+
+    width: 239px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-width: 256px;
+}
+
+.cat-box select {
+    width: 103%;
+    border: none;
+    background: white;
+    border-radius: 0;
+    line-height: normal;
+    outline: none;
+}
+
+.Manage input.largeCheck {
+    /* width: 50px; */
+    transform: scale(1.8);
+}
+
+
+.Manage-right {
+    width: 1200px !important;
+}
+
+.Manage .list_card-1 {
+    /* border: 1px solid var(--lightGray); */
+    box-shadow: 0px 0px 20px #f6eefb;
+    /* height: 100px; */
+    /* padding: 10px; */
+    /* background-color: #fff; */
+    border-radius: 15px;
+    line-height: 1;
+}
+
+.Manage tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    background-color: #f9f9f9;
+}
+
+.Manage tbody,
+td,
+tfoot,
+.Manage th,
+thead,
+tr {
+    border-color: inherit;
+    /* height: 91px; */
+    border-style: solid;
+    border-width: 0;
+    border-bottom: 1pt solid #cacbcd !important;
+}
+
+.Manage .edit_bar {
+    background-color: var(--white);
+    padding: 2px 10px;
+    display: flex;
+    color: var(--lightGray);
+    align-items: center;
+    justify-content: center;
+    width: 28vw !important;
+    border-radius: 10px;
+}
+
+.Manage .skill-box {
+    border: 1px solid #8441AF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.Manage .skill-box p {
+    color: #8441AF;
+
+}
+
+.Manage .ck-content h2 {
+    height: 220px;
+}
+
+.Manage .ck-content p {
+    height: 220px;
+}
+
+.Manage .ck-content h3 {
+    height: 220px;
+}
+
+.Manage .ck-content h4 {
+    height: 220px;
+}
+
+.Manage .form_bar {
+    background-color: var(--white);
+    display: flex;
+    color: var(--lightGray);
+    align-items: left;
+    justify-content: left;
+    margin: 6px 0;
+    height: 54px;
+    width: 15vw !important;
+    border-radius: 10px;
+}
+
+.Manage .step2 .mp-input-div {
+    width: 19vw !important;
+}

@@ -1,0 +1,319 @@
+/* 
+.fc .fc-button-group{
+    position: relative;
+    bottom: 100px !important;
+    right: 250px !important;
+    display: inline-flex;
+    vertical-align: middle;
+
+} */
+.fc {
+    padding-top: 80px;
+    overflow-y: hidden;
+}
+
+.paddingStart {
+    padding-left: 3rem !important;
+}
+
+.fc-daygrid-event {
+    /* background: rgba(28, 216, 201, 0.1) !important; */
+    border-radius: 5px;
+    min-width: 140px;
+    height: 51px;
+}
+
+.fc-h-event .fc-event-main-frame {
+    display: flex;
+    flex-direction: column-reverse !important;
+
+}
+
+.cal_title {
+    position: absolute;
+    top: 24.4rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    /* z-index: 100; */
+}
+
+/* .fc-daygrid-event-dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: red; */
+/* z-index: -1; */
+/* border: none; */
+
+/* } */
+
+.fc-event-time,
+.fc-event-title {
+    /* color: rgba(85, 11, 124, 1); */
+}
+
+.fc-v-event {
+    color: rgb(28, 216, 201) !important;
+    background: rgba(28, 216, 201, 0.1) !important;
+
+}
+
+.fc-v-event .fc-event-time,
+.fc-v-event .fc-event-title {
+    color: rgb(28, 216, 201) !important;
+
+}
+
+.fc-daygrid-block-event {
+    /* background: rgba(85, 11, 124, 0.1) !important; */
+    border-radius: 5px;
+    flex-direction: column-reverse;
+    margin-left: 15px !important;
+    margin-top: -6px !important;
+    align-items: flex-start;
+    min-width: 140px;
+    width: fit-content;
+    height: auto !important;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+
+
+button[title='Previous month'],
+button[title='Next month'],
+button[title='Previous week'],
+button[title='Next week'],
+button[title='Previous day'],
+button[title='Next day'] {
+    background-color: #fff !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin: 5px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.fc .fc-today-button {
+    display: none !important;
+}
+
+/* .fc .fc-toolbar{
+} */
+.fc-col-header-cell {
+    background-color: #F6EEFB;
+
+}
+
+/* .fc .fc-toolbar-title {
+    font-size: 1.75em;
+    margin: 0;
+    position: absolute;
+    left: 37rem;
+} */
+
+a {
+    text-decoration: none !important;
+    color: #8C8C8C !important;
+}
+
+.fc .fc-col-header-cell-cushion {
+    font-weight: 400;
+}
+
+.fc .fc-daygrid-day-top {
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+thead {
+    height: 40px !important;
+    border: none;
+}
+
+.fc-theme-standard th {
+    border: none;
+
+}
+
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+    height: 1em;
+}
+
+.fc .fc-button {
+    background-color: transparent;
+    border: none;
+    color: var(--purple);
+
+}
+
+.fc .fc-button:hover {
+    background-color: transparent;
+    border: none;
+    color: var(--purple);
+}
+
+.fc .fc-button:focus {
+    background-color: transparent;
+    border: none;
+    color: var(--purple);
+}
+
+.fc .fc-button-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 280px; */
+    height: 40px;
+    padding: 5px;
+    /* background: #F6EEFB; */
+    border-radius: 15px;
+
+}
+
+.fc-dayGridMonth-button,
+.fc-timeGridWeek-button,
+.fc-timeGridDay-button {
+    /* position: absolute !important; */
+    /* top: -4.4rem; */
+    display: flex !important;
+    width: 90% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #F6EEFB !important;
+    text-transform: capitalize !important;
+    border-radius: 15px !important;
+    /* right: 21rem; */
+}
+
+tr[role='row'],
+td[role='presentation'] {}
+
+.fc .fc-daygrid-day-frame,
+.fc .fc-timegrid-slot,
+.fc .fc-timegrid-axis-frame,
+.fc .fc-timegrid-axis,
+.fc .fc-scroller-liquid-absolute {
+    background-color: #fff;
+
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+    height: 33px;
+    background-color: var(--purple) !important;
+    border-radius: 15px;
+    z-index: 100;
+    box-shadow: 0px 0px 16px rgba(85, 11, 124, 0.3);
+}
+
+.fc-button-group:first-child {
+    background-color: #F6EEFB;
+    height: 40px;
+    width: 280px;
+    position: relative;
+    top: -4.4rem;
+}
+
+.fc thead th:first-child {
+    border-top-left-radius: 10px;
+
+}
+
+/* .fc thead[role:'presentation'] tr[role:'row']:first-child {
+    border-top-left-radius: 6px;
+} */
+.fc-theme-standard .fc-scrollgrid {
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    border: 1px solid var(--fc-border-color, #ddd);
+}
+
+.fc {
+    border-radius: 10px;
+}
+
+.fc thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.fc tbody tr:last-child th:first-child {
+    border-bottom-left-radius: 10px;
+
+}
+
+.fc tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.fc tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+button[title='Previous month']:hover,
+button[title='Next month']:hover,
+button[title='Previous week']:hover,
+button[title='Next week']:hover,
+button[title='Previous day']:hover,
+button[title='Next day'] :hover {
+    box-shadow: 0px 0px 16px rgba(85, 11, 124, 0.3) !important;
+
+}
+
+.fc-button-primary:focus,
+.fc-button-primary:active:focus,
+.fc-button-primary.active:focus,
+.fc-button-primary.focus,
+.fc-button-primary:active.focus,
+.fc-button-primary.active.focus {
+    outline: 0 !important;
+    border: 0 !important;
+    box-shadow: 0px 0px 16px rgba(85, 11, 124, 0.3) !important;
+
+    height: 33px;
+    /* background-color: var(--purple) !important; */
+    border-radius: 15px;
+}
+
+/* .fc .fc-button-primary:not(:disabled).fc-button-active::after {
+    content: '';
+    position: absolute;
+    background-color: #F6EEFB;
+    opacity: 0.6;
+    height: 40px;
+    width: 90px;
+    z-index: -100;
+} */
+
+.weather {
+    position: absolute;
+    right: 6%;
+}
+
+@media (min-width:1800px) {
+    /* .fc .fc-toolbar-title {
+        font-size: 1.75em;
+        margin: 0;
+        /* position: relative; */
+    /* position: absolute;
+        left: 45.4rem; */
+    /* right: 19.6em; */
+    /* } */
+}
+
+@media (max-width:750px) {
+    .cal_title {
+        position: absolute;
+        top: 63rem;
+    }
+
+    .paddingStart {
+        padding: 3rem 0 !important;
+    }
+}

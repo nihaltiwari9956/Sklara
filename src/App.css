@@ -1,0 +1,268 @@
+@import url(./colors.css);
+@import '~antd/dist/antd.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f9f9 !important;
+  z-index: -10000;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+
+.login {
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.login_form {
+  width: 55%;
+  margin: auto;
+  /* padding: 4rem 10%; */
+  text-align: center;
+}
+
+.certificates img {
+  height: 35px;
+  margin: 10px;
+}
+
+.login_text h1 {
+  margin-bottom: 3rem;
+  color: var(--blue);
+  font-family: "antoniah1-medium";
+  font-size: 300%;
+  font-weight: 800;
+  line-height: 4.6666666667rem;
+}
+
+.login_text img {
+  width: 200px;
+
+}
+
+.login_img {
+  background: url(https://webmeup.com/upload/blog/lead-image-105.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+/* .login_form input {
+  color: #80888f;
+  font-size: 1rem; */
+/* font-weight: 500;
+  background-color: transparent; */
+/* padding: 0.8333333333rem 0.8333333333rem 1.25rem 0; */
+/* display: block;
+  width: 100%;
+  min-width: 400px;
+  border: none;
+  border-bottom: 2px solid var(--grey);
+  border-radius: 0;
+  line-height: normal;
+  outline: none;
+} */
+button:disabled {
+  background-color: #cccccc !important;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.label {
+  text-align: left;
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.login_input button {
+  margin-top: 1rem;
+  width: 100%;
+  height: 55px;
+  border-radius: 2px;
+  border: none;
+  /* background-color: #0062e3; */
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.login_button:hover {
+  background-color: var(--purple);
+  transition: 0.5s ease-out;
+}
+
+.btn-primary {
+  background-color: var(--purple) !important;
+}
+
+.btn-primary:hover {
+  /* background-color: var(--purple) !important; */
+  background: #ffffff !important;
+  color: #550b7c !important;
+  border-color: #550b7c !important;
+  transition: 0.5s ease-in;
+}
+
+.heading {
+  color: var(--purple) !important;
+  /* font-size: 60px; */
+  font-weight: 900;
+  /* text-shadow: 1px 0 var(--purple); */
+  letter-spacing: 1px;
+  font-family: 'Inter';
+}
+
+.btn-primary {
+  border-color: var(--purple) !important;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.inner-text {
+  color: var(--lightGray);
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.rating {
+  color: var(--lightBlue);
+}
+
+.badges {
+  display: flex;
+}
+
+.badge {
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.coach-btn {
+  margin: 30px 0 10px 0;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 90% !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+
+  border-top: 0.1px solid var(--lightGray);
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+.coach-card {
+  height: 100%;
+}
+
+.review-flag1 img {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin: 0 7px 0 0px;
+  border: 1px solid var(--white);
+  border-radius: 50px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+
+.view-all {
+  color: var(--purple);
+  text-decoration: none;
+  text-align: right;
+  margin: 10px 0 50px 0 !important;
+}
+
+.card {
+  /* height: 100%; */
+  border-radius: 0.5rem !important;
+  box-shadow: 1px 2px 4px rgb(0 0 0 / 20%) !important;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.event-date-day-component {
+  text-align: right;
+  font-size: 3.1em;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.event-date-filler-component {
+  font-size: 0.5em;
+  font-weight: normal;
+}
+
+.event-date-month-component {
+  text-align: left;
+  font-size: 1em;
+  padding: 0 !important;
+  margin-top: 10px !important;
+}
+
+.event-date-session-component {
+  text-align: center;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: -10px !important;
+}
+
+.bg-3 {
+  position: absolute;
+  width: 466.07px;
+  height: 640.03px;
+  left: 980px;
+  top: -6px;
+  z-index: -1;
+  background: var(--bg3);
+  filter: blur(100px);
+}
+
+.bg-4 {
+  position: absolute;
+  width: 400px;
+  height: 904.87px;
+  left: 1300px;
+  top: 66.83px;
+  z-index: -1;
+  background: var(--bg1);
+  filter: blur(100px);
+
+}
+
+.bg-5 {
+  position: absolute;
+  width: 570.78px;
+  height: 1000px;
+  left: 980px;
+  top: 208.08px;
+  z-index: -1;
+  background: var(--bg2);
+  filter: blur(100px);
+}
+
+.text-danger {
+  font-size: x-small;
+}
+
+

@@ -1,0 +1,31 @@
+.donut-div{
+    width: 360px;
+    height: 360px;
+}
+
+.donut-h{
+    width: 160px;
+}
+
+.linearD{
+    height: 16px;
+}
+.p-rad{
+    border-radius: 12px;
+}
+
+.p-red{
+    background-color: #FF6384;
+}
+.p-blue{
+background-color: #36A2EB;
+}
+.p-yellow{
+    background-color: #FFCE56;
+}
+.p-green{
+background-color: #4BC0C0;
+}
+.p-purple{
+background-color: #7D2AE3 !important;
+}

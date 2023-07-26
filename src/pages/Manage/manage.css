@@ -1,0 +1,7 @@
+.skillBtn:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.skillBtn:hover p{
+    color: crimson;
+}
